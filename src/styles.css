@@ -14,5 +14,8 @@ body {
 
 .center {
   margin: 0 auto;
-  width: 30vw;
+  /*width: 50%;*/
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
