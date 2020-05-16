@@ -9,15 +9,25 @@
 .navbar-brand {
   padding-left: 1vw;
   font-size: 24pt;
+  color:  white;
 }
 
 .navbar {
-  background: black;
+  background: #162447;
   height: 8vh;
 }
 
 .navbar-nav .nav-item .nav-link {
   padding-left: 2.5vw;
   padding-right: 2.5vw;
+  color: white;
 }
 
+.nav-link:hover {
+  text-shadow: 1px 0 0 goldenrod;
+  color: goldenrod !important;
+  transition: .4s;
+}
+.nav-link {
+  transition: 0.4s;
+}
