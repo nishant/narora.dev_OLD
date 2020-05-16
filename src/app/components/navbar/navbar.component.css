@@ -1,0 +1,23 @@
+/* centers the navbar items */
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  justify-content: space-around;
+  flex-basis: auto;
+  font-size: 18pt;
+}
+
+.navbar-brand {
+  padding-left: 1vw;
+  font-size: 24pt;
+}
+
+.navbar {
+  background: black;
+  height: 8vh;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
